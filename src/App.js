@@ -5,6 +5,7 @@ import Header from "./Header";
 
 function App() {
   const themeHook = useState("light");
+  console.log(themeHook)
   return (
       <ThemeContext.Provider value={themeHook}>
           <Header/>
